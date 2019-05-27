@@ -1,6 +1,6 @@
-This is an experiment to demonstrate a problem when running `clang++` and
+This repository demonstrates a problem when running `clang++` and
 `--target=x86_64-apple-darwin` on older versions of macOS using [Travis-CI] to
-run the same command on all of the [macOS versions] supported by it.
+run the same command on all of the [supported macOS versions].
 
 [Travis-CI]: https://travis-ci.com/spl/clang-cxx11-darwin-test/jobs/203303926
 [macOS versions]: https://docs.travis-ci.com/user/reference/osx/#macos-version
