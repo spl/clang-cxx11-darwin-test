@@ -18,4 +18,6 @@ matrix:
 
 script:
   - clang++ --version
+  - clang++ unique_ptr.cpp -stdlib=libc++
+  - clang++ unique_ptr.cpp -stdlib=libc++ --target=$(uname -r)
   - clang++ unique_ptr.cpp -stdlib=libc++ --target=x86_64-apple-darwin
